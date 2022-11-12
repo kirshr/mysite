@@ -1,0 +1,16 @@
+footer nav {
+    border-bottom: none;
+    ul {
+      gap: 4rem;
+    }
+  }
+.footer-icons {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    svg {
+        width: 10rem;
+        fill: white;
+    }
+    
+}

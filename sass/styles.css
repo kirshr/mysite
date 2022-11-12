@@ -140,6 +140,23 @@ nav ul li a {
   text-transform: uppercase;
 }
 
+footer nav {
+  border-bottom: none;
+}
+footer nav ul {
+  gap: 4rem;
+}
+
+.footer-icons {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.footer-icons svg {
+  width: 10rem;
+  fill: white;
+}
+
 .home {
   margin: 5rem 0;
   display: flex;
