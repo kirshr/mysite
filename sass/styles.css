@@ -284,5 +284,29 @@ h3 {
 }
 
 .contact {
-  height: 100vh;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+}
+.contact h2 {
+  width: 100%;
+  text-align: center;
+}
+.contact .contact-col-1 {
+  padding: 1%;
+  border: 2px solid #bf8f32;
+  border-radius: 0.5rem;
+}
+.contact .contact-col-1 form {
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+}
+.contact .contact-col-1 form label {
+  color: #f9e0b4;
+}
+.contact .contact-col-2 {
+  width: 33vw;
 }/*# sourceMappingURL=styles.css.map */

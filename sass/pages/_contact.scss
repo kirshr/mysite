@@ -1,3 +1,29 @@
 .contact {
-  height: 100vh;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+  h2 {
+    width: 100%;
+    text-align: center;
+  }
+  flex-wrap: wrap;
+.contact-col-1 {
+  padding: 1%;
+  border: 2px solid $bright-gold;
+  border-radius: 0.5rem;
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    label {
+      color: $offwhite;
+    }
+  }
+}
+.contact-col-2 {
+  width: 33vw;
+
+}
+  
 }
