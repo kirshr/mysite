@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.2rem solid gold;
+  ul {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    li {
+      a {
+        text-transform: uppercase;
+      }
+    }
+  }
+}
