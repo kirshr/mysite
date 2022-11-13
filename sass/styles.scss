@@ -1,8 +1,10 @@
 @import "./base/reset";
+@import "./base/mixins";
 @import "./base/base";
 @import "./base/colors";
 @import "./typography/typography";
 @import "./components/navbar";
+@import "./components/modal";
 @import "./components/footer";
 @import "./components/svg";
 @import "./pages/home";

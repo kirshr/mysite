@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./sass/styles.css" />
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/modal.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -14,7 +15,7 @@
         <h1 class="logo">Logo</h1>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#porfolio">Porfolio</a></li>
+          <li><a href="#porfolio">Portfolio</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -32,6 +33,7 @@
         <h2>Front End Developer</h2>
       </section>
       <section class="portfolio inner-container">
+        <!-- Portfolio -->
         <div class="portfolio-col col-1">
           <h2>Portfolio</h2>
         </div>
@@ -41,8 +43,14 @@
         <div class="portfolio-col col-3">
           <h2>Skills</h2>
         </div>
+        <!-- Portfolio -->
         <div class="portfolio-col col-4">
-          <img src="./SVG/calendar.png" alt="" />
+          <img
+            src="./SVG/calendar.png"
+            alt=""
+            class="portfolio-item"
+            id="myBtn"
+          />
           <img src="./SVG/calendar.png" alt="" />
           <img src="./SVG/calendar.png" alt="" />
           <img src="./SVG/calendar.png" alt="" />
@@ -338,7 +346,7 @@
         <h1 class="logo">Logo</h1>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#porfolio">Porfolio</a></li>
+          <li><a href="#porfolio">Portfolio</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
