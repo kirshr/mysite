@@ -10,3 +10,13 @@ html {
   max-width: 135rem;
   margin: 0 auto;
 }
+.flex {
+  display: flex;
+  gap: 2%;
+}
+.flex-col-1 {
+  width: 64%;
+}
+.flex-col-2 {
+  width: 34%;
+}

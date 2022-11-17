@@ -7,6 +7,7 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="./js/script.js"></script>
     <script src="./js/modal.js"></script>
+
     <title>Document</title>
   </head>
   <body>
